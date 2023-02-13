@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="169.683" height="27" viewBox="0 0 169.683 27">
+  <g id="Group_20" data-name="Group 20" transform="translate(-515 -2512)">
+    <g id="Group_1" data-name="Group 1" transform="translate(65 58)">
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="13.5" cy="13.5" r="13.5" transform="translate(485 2454)" fill="#9e9ea1"/>
+      <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="14" cy="13.5" rx="14" ry="13.5" transform="translate(521 2454)" fill="#9e9ea1"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="13.5" cy="13.5" r="13.5" transform="translate(558 2454)" fill="#9e9ea1"/>
+    </g>
+    <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M7.653,3.822l.892-.892a.96.96,0,0,1,1.362,0l7.81,7.806a.96.96,0,0,1,0,1.362l-7.81,7.81a.96.96,0,0,1-1.362,0l-.892-.892a.965.965,0,0,1,.016-1.378l4.841-4.612H.964A.962.962,0,0,1,0,12.062V10.776a.962.962,0,0,1,.964-.964H12.51L7.669,5.2A.958.958,0,0,1,7.653,3.822Z" transform="translate(666.683 2513.926)" fill="#bababa"/>
+    <path id="Icon_awesome-arrow-left" data-name="Icon awesome-arrow-left" d="M10.343,19.016l-.892.892a.96.96,0,0,1-1.362,0L.28,12.1a.96.96,0,0,1,0-1.362L8.09,2.93a.96.96,0,0,1,1.362,0l.892.892A.965.965,0,0,1,10.327,5.2L5.486,9.812H17.032a.962.962,0,0,1,.964.964v1.286a.962.962,0,0,1-.964.964H5.486l4.841,4.612A.958.958,0,0,1,10.343,19.016Z" transform="translate(515.004 2513.926)" fill="#bababa"/>
+  </g>
+</svg>

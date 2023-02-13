@@ -1,0 +1,320 @@
+
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. Flavours
+    6. History 
+    7. Social Gallery 
+    8. Contact Form
+    9. Footer
+
+
+    Fonts
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sintony', sans-serif;
+    font-family: 'Wire One', sans-serif;
+
+*/ 
+
+/* 1 --- General Styles --- */ 
+
+.hidden{
+    display:none;
+} 
+
+.container {
+    width: 1200px; 
+    margin: 0 auto; 
+    background-color: #E1E1E1;
+}
+
+
+.logo-type {
+    font-family: 'Wire One', sans-serif;
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0px;
+    color: black;
+}
+
+
+h2 {
+    font-family: 'Sintony', sans-serif;
+    font-size: 40px; 
+    color: #707070;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #707070;
+}
+
+ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #707070;
+    list-style: none;
+    text-align: center;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #E1E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 78px;
+    border-radius: 66px;
+    margin-top: 80px;
+    margin-left: 60px;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button:hover {
+	background-color: #99999bef;
+}
+
+
+/* 2 --- Grid - - - */ 
+
+.grid {
+    display: grid; 
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-template-columns: repeat(12, 70px);
+    grid-column-gap: 30px;
+}
+
+/* 3 --- Header --- */
+
+#main-header {
+    background-color: #E1E1E1;
+}
+
+.logo {
+
+    grid-column: 3/4;
+    background-color: #BABABA;
+    width:62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.main-nav {
+    grid-column: 5/11;
+    margin-top: 30px;
+}
+
+.main-nav ul li a {
+    color: #000000; 
+    text-decoration: none;
+    transition: all .4s ease;
+    margin-right: 10px;
+
+}
+
+.main-nav ul li a:hover {
+    border-bottom: 2px solid #393939;
+    text-decoration: none;
+}
+
+.header-icons {
+    grid-column: 11/-1;
+    margin-top: 50px;
+    letter-spacing: 40px;
+    cursor: pointer;
+}
+
+/*  4 ---  Main Hero Image ---*/
+
+#hero {
+    position: relative;
+}
+
+#hero {
+	background-color: #aaaaaa;
+	background: url("https://via.placeholder.com/1200x533");
+    height: 533px;
+}
+
+#hero h2 {
+    position: absolute;
+    grid-column: 2/7;
+    top: 2em;
+    margin: 0px; 
+}
+
+#hero h3 {
+    top: 300px;
+    position: absolute;
+    grid-column: 2/6;
+}
+
+#hero h3 a {
+    text-decoration: none;
+    color: #000000;
+}
+ #hero ul li a {
+    text-decoration: none;
+ }
+
+ #health-benefits {
+    grid-column: 4/11;
+ }
+
+ #health-benefits ul  {
+    position: absolute; 
+    bottom: 50px;
+ }
+
+
+/* 5. --- Flavours --- */ 
+
+
+.flavour-con {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+    grid-column: 2/12;
+    margin-bottom: 10px;
+}
+
+.flavour-con h3 {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    transition: all .4s ease;
+}
+
+.flavour-con h3:hover {
+    font-size: 20px;
+}
+
+.flavour-con h3 a {
+    text-decoration: none;
+}
+
+.flavour-text {
+   grid-column: 1/-1;
+   background-color: #BABABA;
+   border-radius: 66px;
+   display: flex;
+}
+
+.flavour-text h2 {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+
+/* 6 --- History --- */ 
+
+#history-con {
+    grid-column: 2/8;
+    background-color: #BABABA;
+    border-radius: 60px;
+    width: 500px;
+    margin-top: 50px;
+    height: 590px;
+}
+
+#history-con p, h2{
+    margin-left: 40px;
+    margin-right: 90px;
+}
+
+#history-image {
+    position: relative;
+    right: 8em;
+    top: 8em;
+}
+
+#history-button {
+    position: relative;
+    bottom: 3em
+}
+
+/* 7. --- Social Gallery --- */ 
+
+#social {
+    grid-column: 1/-1;
+}
+
+#social h2 {
+    text-align: center;
+
+}
+
+.social-con {
+    grid-column: 1/12;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+#social-gallery {
+    grid-row: 7/9;
+    grid-column: 6/8;
+    margin-top: 40px;
+}
+
+/* 8. --- Contact Form --- */ 
+
+#contact-con {
+    grid-column: 8/-1;
+    width: 370px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+#contact-form img {
+    grid-column: 2/8;
+}
+
+#contact-form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* 9. --- Footer --- */ 
+
+footer {
+    background-color: #c2c1c1;
+    height: 200px;
+}
+
+.social-icons {
+    grid-column: 1/-1;
+    padding: 0px;
+}
+
+ul li a {
+    margin-right: 30px;
+}
