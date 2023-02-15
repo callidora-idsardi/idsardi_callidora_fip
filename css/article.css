@@ -1,3 +1,165 @@
+
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+
+
+    Fonts
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sintony', sans-serif;
+    font-family: 'Wire One', sans-serif;
+
+*/ 
+
+/* 1 --- General Styles --- */ 
+
+
+
 .hidden{
     display:none;
 } 
+
+.hidden{
+    display:none;
+} 
+
+.container {
+    width: 1200px; 
+    margin: 0 auto; 
+    background-color: #E1E1E1;
+}
+
+
+.logo-type {
+    font-family: 'Wire One', sans-serif;
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0px;
+    color: black;
+}
+
+
+h2 {
+    font-family: 'Sintony', sans-serif;
+    font-size: 40px; 
+    color: #707070;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #707070;
+}
+
+ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #707070;
+    list-style: none;
+    text-align: center;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #E1E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 78px;
+    border-radius: 66px;
+    margin-top: 80px;
+    margin-left: 60px;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button:hover {
+	background-color: #99999bef;
+}
+
+
+/* 2 --- Grid - - - */ 
+
+.grid {
+    display: grid; 
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-template-columns: repeat(12, 70px);
+    grid-column-gap: 30px;
+}
+
+/* 3 --- Header --- */
+
+#main-header {
+    background-color: #E1E1E1;
+}
+
+.logo {
+
+    grid-column: 3/4;
+    background-color: #BABABA;
+    width:62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.main-nav {
+    grid-column: 5/11;
+    margin-top: 30px;
+}
+
+.main-nav ul li a {
+    color: #000000; 
+    text-decoration: none;
+    transition: all .4s ease;
+    margin-right: 10px;
+
+}
+
+.main-nav ul li a:hover {
+    border-bottom: 2px solid #393939;
+    text-decoration: none;
+}
+
+.header-icons {
+    grid-column: 11/-1;
+    margin-top: 50px;
+    letter-spacing: 40px;
+    cursor: pointer;
+}
+
+/*  4 ---  Main Hero Image ---*/
+
+#hero {
+    position: relative;
+}
+
+#hero {
+	background-color: #aaaaaa;
+	background: url("https://via.placeholder.com/1200x533");
+    height: 533px;
+}
