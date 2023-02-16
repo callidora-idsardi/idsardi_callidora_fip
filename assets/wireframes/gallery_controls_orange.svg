@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="167.517" height="32.778" viewBox="0 0 167.517 32.778">
+  <g id="Gallery_Controls" data-name="Gallery Controls" transform="translate(30 7.889)">
+    <g id="Gallery_Buttons" data-name="Gallery Buttons" transform="translate(22.137)">
+      <circle id="Page_3" data-name="Page 3" cx="8.5" cy="8.5" r="8.5" transform="translate(46.624)" fill="#f7931e"/>
+      <ellipse id="Page_2" data-name="Page 2" cx="9" cy="8.5" rx="9" ry="8.5" transform="translate(22.624)" fill="#f7931e"/>
+      <circle id="Page_1" data-name="Page 1" cx="8.5" cy="8.5" r="8.5" transform="translate(-0.376)" fill="#f7931e"/>
+    </g>
+    <path id="Right_Arrow" data-name="Right Arrow" d="M14.3,4.842l1.666-1.666a1.794,1.794,0,0,1,2.544,0L33.1,17.758a1.794,1.794,0,0,1,0,2.544l-14.59,14.59a1.794,1.794,0,0,1-2.544,0L14.3,33.226a1.8,1.8,0,0,1,.03-2.574l9.043-8.616H1.8a1.8,1.8,0,0,1-1.8-1.8v-2.4a1.8,1.8,0,0,1,1.8-1.8H23.37L14.327,7.417A1.79,1.79,0,0,1,14.3,4.842Z" transform="translate(103.892 -10.532)" fill="#f7931e"/>
+    <path id="Left_Arrow" data-name="Left Arrow" d="M19.328,33.23,17.662,34.9a1.794,1.794,0,0,1-2.544,0L.526,20.312a1.794,1.794,0,0,1,0-2.544L15.117,3.176a1.794,1.794,0,0,1,2.544,0l1.666,1.666a1.8,1.8,0,0,1-.03,2.575l-9.045,8.617H31.825a1.8,1.8,0,0,1,1.8,1.8v2.4a1.8,1.8,0,0,1-1.8,1.8H10.253L19.3,30.655A1.79,1.79,0,0,1,19.328,33.23Z" transform="translate(-29.997 -10.536)" fill="#f7931e"/>
+  </g>
+</svg>
