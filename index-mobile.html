@@ -21,10 +21,31 @@
                 <div class="logo">
                     <img src="img/official_squeezit_rebrand_logo.svg" alt="Squeezit Logo">
                 </div> 
-                <nav>
-                    <h2 class="hidden">Main Navigation</h2>
-                    <img src="img/hamburger-icon.svg" alt="Hamburger Navigation Menu">
+
+                <nav id="nav-con">
+                    <h2 class="hidden">Main Mobile Navigation</h2>
+                    <input type="checkbox" id="hamburger">
+                    <label for="hamburger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="59.1" height="42.733" viewBox="0 0 59.1 42.733">
+                           <g class="hamburger-icons">
+                                <g data-name="Icon feather-menu" transform="translate(0.5 -4)">
+                                <path id="Path_402" data-name="Path 402" d="M4.5,18H53.6" transform="translate(0 7.367)" fill="none" stroke="#f7931e" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+                                <path id="Path_403" data-name="Path 403" d="M4.5,9H53.6" fill="none" stroke="#f7931e" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+                                <path id="Path_404" data-name="Path 404" d="M4.5,27H53.6" transform="translate(0 14.733)" fill="none" stroke="#f7931e" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+                                </g>
+                          </g>   
+                        </svg>
+
+                    </label>
+                    <div id="hamburger-menu">
+                        <ul>
+                            <li><a href="#">SHOP</a></li>
+                            <li><a href="#">PRODUCTS</a></li>
+                            <li><a href="article-mobile.html">SQUEEZIT STORY</a></li>
+                        </ul>
+                    </div>
                 </nav>
+
             </div>
             
             <section class="full-grid" id="hero">
@@ -47,8 +68,7 @@
         <main>
                 <section id="flavours" class="grid">
                     <h2>Flavours</h2>
-                    <section>
-                        <div id="img-gal">
+                        <div class="img-gal">
                             <img src="img/mobile_index_strawberry_flavour.png" alt="Strawberry Flavour">
                             <img src="img/mobile_index_grape_flavour.png" alt="Grape Flavour">
                             <img src="img/mobile_index_banana_flavour.png" alt="Banana Flavour">
@@ -57,7 +77,6 @@
                         <div class="gallery">
                             <a href="#"><img src="img/squeezit_controls_orange.svg" alt="gallery controls"></a>
                         </div>
-                    </section>
                 </section>
 
                 <section id="flavour-text" class="grid">
@@ -86,8 +105,8 @@
 
           <section class="grid" id="social">
                 <h2 class="hidden">Social Media Gallery</h2>
-                <section>
-                    <div id="img-gal">
+                <div>
+                    <div class="img-gal">
                         <img src="img/mobile_index_juice_social.png" alt="Fruit with juice jugs">
                         <img src="img/mobile_index_grapes_social.png" alt="Pile of grapes">
                         <img src="img/mobile_index_bananas_social.png" alt="Bannaa tree">
@@ -96,7 +115,7 @@
                     <div class="gallery">
                         <a href="#"><img src="img/squeezit_controls_orange.svg" alt="gallery controls"></a>
                     </div>
-                </section>
+                </div>
           </section>
 
         <section class="grid" id="contact-con">
