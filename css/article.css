@@ -72,19 +72,6 @@ a {
     text-decoration: none;
 }
 
-.button {
-    background-color: #6ebe4351; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 355px;
-    height: 78px;
-    border-radius: 66px;
-    margin-top: 80px;
-    margin-left: 60px;
-    cursor: pointer;
-    transition: all .6s ease;
-}
 
 .button a {
     text-decoration: none;
@@ -258,15 +245,6 @@ a {
     margin-left: 35px;
   }
 
-  .button h4 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    color: #3D6B24;
-  }
-
-  #more-details-button {
-    margin-left: 370px;
-  }
 
 
 /* 8. --- Footer --- */ 
