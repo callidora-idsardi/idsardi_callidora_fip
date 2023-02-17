@@ -1,3 +1,25 @@
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. Promo Section
+    6. Article Section
+    7. Character Card Section
+    8. Footer
+
+
+    Fonts
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sintony', sans-serif;
+    font-family: 'Wire One', sans-serif;
+
+*/ 
+
+
 /* 1 --- General Styles --- */ 
 
 .hidden{
@@ -73,6 +95,58 @@ a {
 }
 
 /* 3 --- Header --- */ 
+svg .hamburger-icons:hover path {
+    stroke: #F25CAD;
+    transition: all 1s ease; 
+    cursor: pointer;
+}
+
+svg {
+    transition: 5s;
+}
+
+#main-header {
+    grid-column: 1/-1;
+}
+
+
+nav svg {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.logo {
+    grid-column: 1/3;
+    margin-top: 10px;
+}
+
+
+#nav-con ul {
+    list-style: none;
+ }
+ 
+ #nav-con li a {
+    text-align: left;
+     display: block;
+     padding: 10px;
+     color:#F7931E;
+     font-weight: bold;
+ }
+ 
+
+#hamburger-menu, #nav-con input {
+    display: none;
+}
+
+ #nav-con input:checked ~ #hamburger-menu {
+    display: block;
+    background-color: #FFE7CB;
+    width: 389px;
+    position: relative;
+    right: 202.1px;
+    transition: all 1s ease; 
+ }
+
 
 #main-header {
     grid-column: 1/-1;
