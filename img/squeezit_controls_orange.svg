@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340.186" height="54.494" viewBox="0 0 340.186 54.494">
+  <g id="Social_Media_Gallery_Controls" data-name="Social Media Gallery Controls" transform="translate(-465.407 -2498.253)">
+    <g id="Gallery_Buttons" data-name="Gallery Buttons" transform="translate(65 58)">
+      <g id="Page_3" data-name="Page 3" transform="translate(558 2454)">
+        <circle id="Page_3-2" data-name="Page 3" cx="13.5" cy="13.5" r="13.5" fill="#f7931e"/>
+      </g>
+      <ellipse id="Page_2" data-name="Page 2" cx="14" cy="13.5" rx="14" ry="13.5" transform="translate(521 2454)" fill="#f7931e"/>
+      <circle id="Page_1" data-name="Page 1" cx="13.5" cy="13.5" r="13.5" transform="translate(485 2454)" fill="#f7931e"/>
+    </g>
+    <g id="Gallery_Buttons-2" data-name="Gallery Buttons" transform="translate(172 58)">
+      <ellipse id="Page_2-2" data-name="Page 2" cx="14" cy="13.5" rx="14" ry="13.5" transform="translate(521 2454)" fill="#f7931e"/>
+      <circle id="Page_1-2" data-name="Page 1" cx="13.5" cy="13.5" r="13.5" transform="translate(485 2454)" fill="#f7931e"/>
+    </g>
+    <path id="Right_Icon" data-name="Right Icon" d="M23.771,6.3l2.77-2.77a2.982,2.982,0,0,1,4.23,0L55.03,27.773a2.982,2.982,0,0,1,0,4.23L30.772,56.261a2.982,2.982,0,0,1-4.23,0l-2.77-2.77a3,3,0,0,1,.05-4.28L38.858,34.885H2.995A2.988,2.988,0,0,1,0,31.89V27.9A2.988,2.988,0,0,1,2.995,24.9H38.858L23.821,10.577A2.977,2.977,0,0,1,23.771,6.3Z" transform="translate(749.683 2495.606)" fill="#f7931e"/>
+    <path id="Left_Icon" data-name="Left Icon" d="M32.135,53.491l-2.77,2.77a2.982,2.982,0,0,1-4.23,0L.876,32.015a2.982,2.982,0,0,1,0-4.23L25.134,3.527a2.982,2.982,0,0,1,4.23,0l2.77,2.77a3,3,0,0,1-.05,4.28L17.048,24.9H52.912A2.988,2.988,0,0,1,55.906,27.9v3.993a2.988,2.988,0,0,1-2.995,2.995H17.048L32.085,49.211A2.977,2.977,0,0,1,32.135,53.491Z" transform="translate(465.41 2495.606)" fill="#f7931e"/>
+  </g>
+</svg>

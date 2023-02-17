@@ -29,14 +29,14 @@
 .container {
     width: 390px;
     margin: 0 auto;
-    background-color: #E1E1E1;
+    background-color: #ffffff;
+    border: 1px solid #F7931E;
 }
 
 h2 {
     font-family: 'Sintony', sans-serif;
     font-size: 30px; 
-    color: #FFFFFF;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 h3 {
@@ -64,6 +64,28 @@ a {
     color: black;
 }
 
+.button {
+    background-color: #ffffff4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 133px;
+    height: 47px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button:hover {
+	background-color: #ffffff9c;
+}
+
+
+
 
 /* 2 --- Grid --- */
 
@@ -83,33 +105,70 @@ a {
     grid-column: 1/-1;
 }
 
+
+nav img {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
 .logo {
-    width: 113px;
-    height: 72px;
-    background-color: #BABABA;
+    grid-column: 1/3;
+    margin-top: 10px;
 }
-
-#hamburger {
-    position: relative;
-    left: 11.5em;
-}
-
 
 
 /* 4 --- Main Hero Image --- set background image*/ 
 
 #hero {
-    grid-column: 1/5;
+    grid-column: 1/-1;
+}
+
+.full-grid {
+	display: grid; 
+	grid-template-columns: 390px;
+}
+
+#background-img {
+    max-width: 100%;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+}
+
+#overlap-text {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+}
+
+#overlap-text h2 {
+    color: #F7931E;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#glass {
+    grid-column: 1/-1;
+    margin-top: 40px;
+    width: 352px;
+    height: 406px;
+    border-radius: 94px;
+    backdrop-filter: saturate(100%) blur(20px);
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+#shop-now {
+    margin: auto;
+    margin-top: 100px;
+}
+
+#shop-now h3 a{
+    color: #F7931E;
+    font-weight: bold;
 }
 
 
 
-#main-header {
-	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/390x611");
-	height: 611px;
-    margin-bottom: 20px;
-}
 
 /* 5. --- Flavours --- */
 
@@ -118,34 +177,51 @@ a {
     display: block;
 }
 
+#img-gal {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+#flavours h2 {
+    text-align: center;
+    color: #F7931E;
+
+}
+
 #flavours h3, .gallery {
     text-align: center;
 }
 
 #flavour-text {
-    background-color: #9E9EA1;
+    background-color: #FAD4E8;
     padding: 20px;
     margin-top: 20px;
     border-radius: 66px;
+    grid-column: 1/5;
 }
 
-.button {
-    background-color: #E1E1E1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 40px;
-    border-radius: 66px;
-    cursor: pointer;
-    transition: all .6s ease;
+#flavour-text h2 {
+    color:#F25CAD;
+    grid-column: 1/5;
+}
+
+.gallery img {
+    width: 50%;
+    margin-top: 10px;
+}
+
+
+#explore-button {
     margin-left: 100px;
+   
 }
 
-.button:hover {
-    background-color: #aaaaaa;
+#explore-button h3 a{
+    color:#F25CAD; 
+    font-weight: bold;
 }
-
 /* 6. --- History --- */ 
 
 #history {
@@ -153,11 +229,19 @@ a {
 }
 #history-con {
     grid-column: 1/5;
-    background-color: #9E9EA1;
+    background-color: #BAE0A6;
     padding: 20px;
     margin-top: 20px;
     border-radius: 66px;
     margin-bottom: 40px;
+}
+
+#history-con h2, p, h3 a {
+    color:#3D6B24;
+}
+
+#history-button {
+    margin:auto;
 }
 
 /* 7. --- Social --- */ 
@@ -170,18 +254,71 @@ a {
 
 /* 8. --- Contact Form --- */ 
 
-#contact-form {
-    grid-column: 1/5;
-    display: block;
-}
-
 #contact-con {
-    width: 353px;
-    height: 409px;
-    background-color: #9E9EA1;
+    grid-column: 1/5;
+    background-color: #FFE7CB;
     margin-top: 10px;
     margin-bottom: 40px;
 }
+
+#contact-con img {
+    grid-column: 1/5;
+}
+
+#contact-con h2 {
+    margin-left: 120px;
+    color: #F7931E;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#contact-form {
+	grid-column: 1/5;
+    border-radius: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#contact-form input, textarea {
+border: none;
+border-radius:  5px;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+margin: 5px;
+color:#F7931E;
+height: 35px;
+display: flex;
+padding: 10px;
+}
+
+::placeholder { 
+color:#F7931E;
+}
+
+
+#contact-form input[type="submit"]:hover {
+background-color: #f6965a63;
+border-radius: 60px;
+}
+
+#contact-form form input[type="submit"] {
+cursor: pointer;
+width: 123px;
+height: 37px;
+border-radius: 34px;
+display: flex;
+justify-content: center;
+background-color: rgba(255, 255, 255, 0.272); 
+transition: 1s;
+}
+
+
+
 
 /* 9. ---- Footer --- */ 
 
@@ -203,14 +340,10 @@ footer {
 
 
 .main-nav ul li a {
-    color: #000000; 
+    color:#F7931E;
+    font-weight: bold; 
     text-decoration: none;
     transition: all .4s ease;
     margin-right: 10px;
     padding-left: 9px;
-}
-
-.main-nav ul li a:hover {
-    border-bottom: 2px solid #393939;
-    text-decoration: none;
 }
