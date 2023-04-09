@@ -2,179 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Squeezit Home Page</title>
-
-    <!-- we must link to the css reset or normalize first, then load our main.css file, CHOOSE ONE-->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Squeezit Team Bio Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Sintony:wght@400;700&family=Wire+One&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-
 </head>
-
 <body>
-    <h1 class="hidden">Squeezit - Desktop Homepage</h1>
-    <div class="container">
-        <header id="main-header" class="grid">
-            <div class="logo">
-                <img src="img/official_squeezit_rebrand_logo.svg" alt="Squeezit Logo">
-            </div> 
-            <nav class="main-nav">
-                <h2 class="hidden">Main Navigation</h2>
-                   <ul>
-                     <li><a href="#">SHOP</a></li>
-                     <li><a href="#">PRODUCTS</a></li>
-                     <li><a href="article.html">SQUEEZIT STORY</a></li>
-                     <li><a href="#">CONTACT US</a></li>
-                   </ul> 
-            </nav> 
-
-            <div class="header-icons">
-                <a href="#"><img src="img/orange-search-icon.svg" alt="search icon" class="icons-hover"></a>
-                <a href="#"><img src="img/orange-shopping-icon.svg" alt="shopping cart"  class="icons-hover"></a>
-            </div>
-
-        </header>
-
-        <main>
-            <section class="full-grid" id="hero">
-                <img src="img/homepage_desktop_hero_image.jpg" alt="pink oranges" id="background-img">
-                <div id="overlap-text" class="grid">
-                    <div id="glass">
-                        <h2>Go ahead, 
-                        <br>
-                        SQUEEZE 
-                        <br>
-                        the fun out of it. </h2>
-
-                        <section class="button" id="shop-now">
-                        <h3><a href="#">SHOP NOW</a></h3>
-                        </section>
-
-                    </div>
-                        <div id="health-benefits">
-                            <ul>
-                                <li>Health Benefit</li>
-                                <li>Health Benefit</li>
-                                <li>Health Benefit</li>
-                                <li>Health Benefit</li>
-                            </ul>
-                        </div>
-                </div>
-            </section>
-
-            
-
-            <div class="grid" id="flavours">
-             <section id="flavour-con">
-                <h2 class="hidden">Squeezit Flavours</h2>
-                <section>
-                    <img src="img/homepage_desktop_strawberry_flavour.png" class="drink-flavour" alt="Squeezit Strawberry">
-                    <a href="#"><h3>Silly Strawberry</h3></a>
-                </section>
-                <section>
-                    <img src="img/homepage_desktop_banana_flavour.png" class="drink-flavour" alt="Squeezit Banana">
-                    <a href="#"><h3>Bubbly Banana</h3></a>
-                </section>
-                <section>
-                    <img src="img/homepage_desktop_grape_flavour.png" class="drink-flavour" alt="Squeezit Grape">
-                    <a href="#"><h3>Grumpy Grape</h3></a>
-                </section>
-                <section>
-                    <img src="img/desktop_homepage_orange_flavour.png" class="drink-flavour" alt="Squeezit Orange">
-                    <a href="#"><h3>Tropi Orange</h3></a>
-                </section>
-             </section>
-
-               <section id="flavour-text">
-                    <h2>Give all of our new flavours  a SQUEEZE.</h2>
-                    <div id="explore-button" class="button">
-                    <h3><a href="#">EXPLORE</a></h3>
-                    </div>
-               </section>
-
-               <div id="svg-con">
-                <img src="img/banana.icon.svg" alt="banana" class="svg-icons">
-                <img src="img/orange-icon.svg" alt="orange" class="svg-icons">
-                <img src="img/strawberry-icon.svg" alt="strawberry" class="svg-icons">
-                <img src="img/grape-icon.svg" alt="grape" class="svg-icons">
-               </div>
-         </div>
-                <article id="history-con" class="grid">
-                    <section id="history-text">
-                        <h2>Collect all of our new 
-                            <br>
-                            SQUEEZIT
-                            <br>
-                            flavour cards!</h2>
-                        <p>Olor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rem sed eius velit quae iure obcaecati culpa quibusdam. Ut ipsam nam voluptas repellat enim magni quam nihil sequi, saepe veritatis.</p>
-                    </section>
-                    <img src="img/desktop_homepage_story_placeholder.png" alt="placeholder">
-                    <div class="button" id="history-button">
-                        <h3><a href="#">READ MORE</a></h3>
-                        </div>
-               </article>
-
-          <section class="grid" id="social">
-                    <h2 class="hidden">Social Media Gallery</h2>
-                    <div class= "social-con">
-                        <img src="img/homepage_desktop_grapes_social.png" alt="Pile of grapes">
-                        <img src="img/homepage_desktop_oranges_social.png" alt="Pile of oranges">
-                        <img src="img/homepage_desktop_strawberries_social.png" alt="A handful of strawberries">
-                        <img src="img/homepage_desktop_juice_social.png" alt="Fruit with juice jugs">
-                    </div>
-                    <div id="social-gallery" class="gallery">
-                        <a href="#"><img src="img/squeezit_controls_orange.svg" alt="gallery controls"></a>
-                    </div>
-          </section>
-
-            <section class="grid" id="contact-con">
-                <h2>Contact</h2>
-                    <img src="img/homepage_desktop_squeezit_map.png" alt="Squeezit Location">
-                        <div id="contact-form">
-                           <form id="contact-form-details" action="email.php" method="POST" enctype="text/plain">
-                                <input name="fullname" type="text" placeholder="full name">
-                                <input name="email" type="text" required placeholder="email">
-                                <input name="phone" type="text" required placeholder="your phone #">
-                                <textarea name="suggestions" placeholder="questions?"></textarea>
-                                <input class= "submit-button" name="submit" type="submit" value="press me">
-                           </form>
-                        </div>
-            </section>
-
-        </main>
-
-        <footer class="grid">
-            <div class="logo">
-                <img src="img/official_squeezit_rebrand_logo.svg" alt="Squeezit Logo">
-            </div> 
-            <nav class="main-nav">
-                <h2 class="hidden">Main Footer Navigation</h2>
-                <ul>
-                    <li><a href="#">SHOP</a></li>
+    <h1 class="hidden">Squeezit Team Bio Page</h1>
+    <div id="sticky">
+            <header class="grid-con" id="main-header">
+            <nav class="nav-con col-span-full m-col-start-5 m-col-end-13 l-col-start-5 l-col-end-13">
+                <h2 class="hidden">Main Navigation</h2> 
+                <button id="button" alt="hamburger menu icon"></button>
+                <div id="burger-con">
+                <ul id="burger-menu">
                     <li><a href="#">PRODUCTS</a></li>
-                    <li><a href="article.html">SQUEEZIT STORY</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-                </ul> 
-            </nav> 
-
-            <div class="header-icons">
-                <a href="#"><img src="img/search-icon-pink.svg" alt="search icon"></a>
-                <a href="#"><img src="img/shopping-icon-pink.svg" alt="shopping cart"></a>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li id="mobile-nav-icons"><a href="account.html"><img src="img/account_icon.svg" alt="account icon"></a> 
+                        <a href="account.html"><img src="img/shopping_icon.svg" alt="shopping cart icon"></a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+            <div id="logo" class= "col-span-full col-end-5 m-col-start-1 m-col-end-4">
+                <img src="img/squeezit_logo.svg" alt="Squeezit Logo">
             </div>
-            <ul class="social-icons">
-                <li><a href="#"><img src="img/twitter-icon-pink.svg" alt="twitter icon"></a><li> 
-                <li><a href="#"><img src="img/insta-icon-pink.svg" alt="instagram icon"></a><li> 
-                <li><a href="#"><img src="img/facebook-icon-pink.svg" alt="facebook icon"></a><li> 
-                 <li><a href="#"><img src="img/linkedin-icon-pink.svg" alt="linkedin icon"></a><li> 
-            </ul>
+            </header>
+   </div>
+  
+ <main>
+    <section class="full-width-grid-con" id="hero-con"> 
+      <img
+          sizes="(max-width: 1920px) 100vw, 1920px"
+          srcset="
+          img/hero_img_qzttl1_c_scale,w_200.jpg 200w,
+          img/hero_img_qzttl1_c_scale,w_1544.jpg 1544w,
+          img/hero_img_qzttl1_c_scale,w_1920.jpg 1920w"
+          src="hero_img_qzttl1_c_scale,w_1920.jpg"
+          alt="Chucklin Cherry Squeezit Bottle" id="hero">
+          <div class="grid-con">
+          <section id="hero-text" class="col-start-1 col-end-4 m-col-start-3 m-col-end-7">
+            <p>SPECIAL OFFER</p>
+            <h2>Chucklin' Cherry <br>
+              <span>SALE</span>
+            </h2>
+            <section>
+              <h3 id="add-to-cart" class="button"><a href="#">add to cart +</a></h3>
+              <p>$8/each</p>
+            </section>
+         </div>
+        </section> 
+ </main>
 
-    </footer>
-        
 
-    </div>  
-    
+
+
+
+
+      <footer id="footer-con" class="grid-con col-span-full">
+          <nav class="nav-con col-span-full m-col-start-5 m-col-end-13 l-col-start-5 l-col-end-13">
+            <h2 class="hidden">Main Navigation</h2> 
+            <button id="button" alt="hamburger menu icon"></button>
+            <div id="burger-con">
+              <ul id="burger-menu">
+                  <li><a href="#">PRODUCTS</a></li>
+                  <li><a href="#">BLOG</a></li>
+                  <li><a href="#">ABOUT US</a></li>
+                  <li><a href="index.html">HOME</a></li>
+                  <li id="mobile-nav-icons"><a href="account.html"><img src="img/account_icon.svg" alt="account icon"></a> 
+                      <a href="account.html"><img src="img/shopping_icon.svg" alt="shopping cart icon"></a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+          <div id="logo" class= "col-span-full col-end-5 m-col-start-1 m-col-end-4">
+            <img src="img/squeezit_logo.svg" alt="Squeezit Logo">
+          </div>
+
+          <ul class="social-icons-footer">
+              <li><a href="#"><img src="img/twitter-icon-pink.svg" alt="twitter icon"></a><li> 
+              <li><a href="#"><img src="img/insta-icon-pink.svg" alt="instagram icon"></a><li> 
+              <li><a href="#"><img src="img/facebook-icon-pink.svg" alt="facebook icon"></a><li> 
+               <li><a href="#"><img src="img/linkedin-icon-pink.svg" alt="linkedin icon"></a><li> 
+               </ul>
+      </footer>
+   
     <!-- link to JS file, above closing body tag -->
     <script src="js/main.js"></script>
 </body>
