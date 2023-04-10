@@ -285,6 +285,11 @@ input, textarea {
 
 /* Blog Post Section */ 
 
+#characters {
+    height: 209px;
+    width: 283px;
+}
+
 #blog-section ul li a {
     color: #F7931E;
     font-size: 12px;
@@ -324,7 +329,8 @@ input, textarea {
     color: #6EBE43;
     text-align: center;
     margin-top: 84px;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
+    font-size: 40px;
 }
 
 #blog-section h3 {
@@ -334,27 +340,170 @@ input, textarea {
     justify-content: center;
     align-items: center;
     border-radius: 39px;
-    width: 101px;
+    width: 150px;
     height: 31px;
 }
 
 #blog-section{
-place-items: center;
 padding-left: 30px;
 padding-right: 30px;
 }
 
 
 #blog-section img {
-    margin-top: 10px;
-    background-color: #F9CAFE;
-    padding: 10px;
-    border-radius: 10px;
+    margin-top: 30px;
 }
 
 #blog-section p {
     font-size: 12px;
 }
+
+.read-more {
+    border: 2px solid #6EBE43;
+    border-radius: 51px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 67px;
+    padding: 5px;
+    transition: all .4s ease;
+    height: 30px;  
+    margin: auto;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+
+.read-more:hover {
+    background-color: #6ebe4334;
+}
+
+#blog-section h5 a {
+    color: #6EBE43;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*Socials Section */ 
+
+#social-section {
+    place-items: center;
+    text-align: center;
+    background-color: #ECE5F2;
+    margin-top: 60px;
+}
+
+#social-section h2 {
+    margin-top: 67px;
+    margin-bottom: 64px;
+    color: #AD83CB;
+}
+
+#social-section .social-img{
+    margin-bottom: 40px;
+}
+
+#follow-us {
+    border: 2px solid #A787BE;
+    border-radius: 51px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 67px;
+    padding: 5px;
+    transition: all .4s ease;
+    margin-top: 67px;
+    cursor: pointer;
+}
+
+#social-section h3 a {
+    margin-right: 10px;
+    color: #AD83CB;
+}
+
+#follow-us:hover {
+    background-color: #a787be45;
+}
+
+#social-section img {
+    border:5px solid #A787BE;
+    border-radius: 70px;
+}
+
+/* contact form */ 
+
+#contact-con h2 {
+    color: #F7931E;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+#contact-con {
+    background-color: #FFE4C4;
+    text-align: center;
+    margin-top: 100px;
+ }
+
+ #contact-con img {
+     margin-top: 40px;
+ }
+ 
+ 
+ #contact-form {
+     border-radius: 90px;
+     height: 340px;
+     width: 340px;
+     margin: auto;
+     margin-top: 30px;
+ }
+ 
+ #contact-form form {
+         display: flex;
+         flex-direction: column;
+ }
+ 
+ 
+ #contact-form input, textarea {
+ 
+     background-color: #FFD8AA;
+     border: none;
+     border-radius:  5px;
+     font-family: 'Poppins', sans-serif;
+     font-size: 15px;
+     margin: 5px;
+     color:#F7931E;
+     height: 35px;
+     display: flex;
+     padding: 10px;
+ }
+ 
+ ::placeholder { 
+     color:#F7931E;
+ }
+   
+ 
+ #contact-form input[type="submit"]:hover {
+     background-color: #f6965a63;
+     border-radius: 60px;
+ }
+ 
+ #contact-form form input[type="submit"] {
+    cursor: pointer;
+    width: 123px;
+    height: 37px;
+    border-radius: 34px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.272); 
+    transition: 1s;
+    margin: auto;
+    margin-top: 30px;
+ }
+
 
 /* Footer */ 
 #footer-nav #burger-con {
@@ -393,6 +542,8 @@ footer #button {
 /* --- tablet --- */ 
 
 @media screen and (min-width: 768px) {
+
+    
 
 
 #sticky{
@@ -500,7 +651,9 @@ margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items:flex-start;
-    gap:50px;
+    gap:40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .benefit {
@@ -512,6 +665,44 @@ margin-top: 40px;
   border-width: 5px;
   cursor: pointer;
 }
+
+
+/*Blog post Section*/
+
+.tablet-desktop {
+    display: block;
+}
+
+#tab-desktop-post {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+#tab-desktop-post > * {
+    flex: 1; 
+}
+
+#blog-section p {
+    font-size: 12px;
+}
+
+/*socials section */ 
+
+.tab-desktop {
+    display: block;
+}
+
+#social-img {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+
+
 
 /* --- desktop --- */  
 
