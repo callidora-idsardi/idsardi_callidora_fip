@@ -183,6 +183,7 @@ input, textarea {
  }
 
 
+
  #hero-text {
     margin-top: 20px;
  }
@@ -446,6 +447,7 @@ padding-right: 30px;
     background-color: #FFE4C4;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 64px;
  }
 
  #contact-con img {
@@ -505,6 +507,7 @@ padding-right: 30px;
  }
 
 
+
 /* Footer */ 
 #footer-nav #burger-con {
     display: block;
@@ -536,15 +539,206 @@ padding-right: 30px;
 footer #button {
     display: none;
 }
+
+
+
+/* ~~~ Page 2: Blog Post ~~~ */ 
+
+ /* Hero */ 
+
+ #hero-blog-con .grid-con {
+    grid-row: 1/1;
+    margin: 0;
+    grid-column: 2/3;
+ }
+
+ #hero-blog-con img {
+    justify-self: center;
+    grid-column: 1/-1;
+    grid-row: 1/1;
+ }
+
+ #hero-blog-con p {
+    color: #E62448;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+ }
+
+ #hero-blog {
+    height: 377px;
+    object-fit: cover;
+    object-position: 25%;
+ }
+
+
+ #hero-text {
+    margin-top: 20px;
+ }
+
+#hero-text h2 {
+    color:#E62448;
+    font-size: 24px;
+    text-align: left;
+}
+
+#hero-text h2 span{
+    color:#E62448;
+    font-size: 70px;
+}
+
+/* Article */ 
+
+#table-of-contents {
+    color: #6EBE43;
+    line-height: 20px;
+    margin-top: 60px;
+}
+
+#table-of-contents h2 {
+    margin-bottom: 20px;
+}
+
+#table-of-contents span {
+    color: black;
+    font-size: 10px;
+}
+
+#table-of-contents p {
+    font-size: 10px;
+}
+
+#main-article h2{
+    font-size: 12px;
+    background-color: #e2ffd2a7;
+    color: #6EBE43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 39px;
+    width: 150px;
+    height: 31px;
+    margin-top: 67px;
+    margin-bottom: 15px;
+}
+
+#main-article h3 {
+    color:#6EBE43;
+    margin-bottom: 41px;
+}
+
+#main-article h4 {
+    color: #6EBE43;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 37px;
+}
+
+#main-article p {
+    color:#3D6B24;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+    margin-bottom: 157px;
+}
+
+#character-svg {
+    place-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#character-svg img {
+    width: 60%;
+}
+
+#grape-svg  {
+    border:3px solid #AD83CB;
+    padding: 40px;
+    margin-bottom: 60px;
+    color: #AD83CB;
+}
+
+#orange-svg {
+    border:3px solid #F7931E;
+    padding: 40px;
+    margin-bottom: 60px;
+    color: #F7931E;
+}
+
+#cherry-svg {
+    border:3px solid #E62448;
+    padding: 40px;
+    margin-bottom: 60px;
+    color: #E62448;
+}
+
+#strawberry-svg {
+    border:3px solid #F25CAD;
+    padding: 40px;
+    margin-bottom: 60px;
+    color: #F25CAD;
+}
+
+#character-svg h2 {
+    color: #6EBE43;
+    margin-bottom: 100px;
+}
+
+#character-svg h3 {
+    margin-bottom: 31px;
+    font-size: 25px;
+}
+
+
+#author-section img {
+    width: 20%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#border {
+    border-top: 2px solid #6EBE43;
+    border-bottom: 2px solid #6EBE43;
+}
+
+#author-section h2 {
+    font-size: 13px;
+    color: #6EBE43;
+    margin-top: 15px;
+}
+
+#author {
+    display: flex;
+    gap: 20px;
+}
+
+#author p {
+    margin-top: 20px;
+    font-size: 10px;
+    color: black;
+    line-height: 20px;
+}
+
+#character-post h3 a{
+    color: #6EBE43;
+    font-family: 'Poppins', sans-serif;
+}
+
+ /* ~~~ Blog Post End ~~~ */ 
+
+
 /* --- media queries --- */ 
 
 
 /* --- tablet --- */ 
 
 @media screen and (min-width: 768px) {
-
-    
-
 
 #sticky{
     position: sticky;
@@ -701,6 +895,71 @@ margin-top: 40px;
     gap: 35px;
 }
 
+
+/* Page 2: Blog Post Start */ 
+
+/* Hero */ 
+
+#hero-blog-con p {
+    font-size: 29px;
+ }
+
+
+
+ /* Main Article */ 
+
+ #table-of-contents {
+    float: right;
+    line-height: 30px;
+ }
+
+ #table-of-contents p {
+    font-size: 10px;
+ }
+
+ #table-of-contents span {
+    font-size: 12px;
+ }
+
+
+ #main-article h4{
+    margin-bottom: 100px;
+ }
+
+ #main-article p {
+    line-height: 20px;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 60px;
+ }
+
+#svg-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+
+}
+
+#character-svg img {
+    width: 50%;
+}
+
+#character-svg h2 {
+    font-size: 40px;
+}
+
+#author-section p{
+    margin-bottom: 15px;
+  
+}
+
+#author-section img {
+    width: 30%;
+}
+/* Page 2: Blog Post End */ 
 
 
 
