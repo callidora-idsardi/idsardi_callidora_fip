@@ -24,7 +24,7 @@ h3 {
 }
 
 h4 {
-    font-size: 15;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -144,7 +144,7 @@ input, textarea {
 }
 
 
-#logo {
+.logo {
     margin-top: 30px;
     width: 60%;
     margin-left: auto;
@@ -509,7 +509,7 @@ padding-right: 30px;
 
 
 /* Footer */ 
-#footer-nav #burger-con {
+#footer-nav {
     display: block;
     margin-top: 30px;
 }
@@ -534,9 +534,14 @@ padding-right: 30px;
     transition: all .4s ease;
     margin-right: 10px;
     padding-left: 9px;
+   display: block;
 }
 
 footer #button {
+    display: none;
+}
+
+#footer-burger-con {
     display: none;
 }
 
@@ -879,6 +884,11 @@ footer #button {
     margin-top: 40px;
 }
 
+#footer-burger-con {
+    display: block;
+    margin-top: 40px;
+}
+
 .nav-con ul li a {
     display: inline;
     font-size: 15px;
@@ -902,12 +912,21 @@ footer #button {
     width: 3%;
 }
 
+#footer-mobile-nav-icons img {
+    width: 3%;
+}
+
 #burger-con ul li, #burger-con ul li:first-child {
     border: none;
     display: inline;
  }
 
-#logo {
+ #footer-burger-con ul li, #burger-con ul li:first-child {
+    border: none;
+    display: inline;
+ }
+
+.logo {
     order: -1;
     margin-top: 10px;
     width: 100%;
@@ -1137,7 +1156,11 @@ margin-top: 40px;
     margin-left: 100px;
     }
 
-#logo {
+#footer-mobile-nav-icons {
+    margin-left: 100px;
+}
+
+.logo {
     width: 100%;
 }
 }
