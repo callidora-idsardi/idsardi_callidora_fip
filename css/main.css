@@ -733,6 +733,108 @@ footer #button {
  /* ~~~ Blog Post End ~~~ */ 
 
 
+ /* ~~~ Page 3: Products Page ~~~ */ 
+
+ #flavour-header {
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    color: #E82147;
+}
+
+ #flavour-con {
+    background-color: #F1A7B6;
+    margin-top: 100px;
+ }
+
+ #content-con {
+    background-color: white;
+    box-shadow: gray 1px 1px 5px;
+    border-radius: 63px;
+    padding: 40px;
+    margin-top: 30px;
+ }
+
+ #content-con h2 {
+ font-size: 15px;
+ color: #E62448;
+ text-align: center;
+ margin-bottom: 30px;
+ }
+
+ #header  {
+    font-size: 35px;
+    color: #E82147;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+ }
+
+ #product-flavours img {
+    width: 35%;
+    margin-top: 12px;
+    
+ }
+
+ #product-flavours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+ }
+
+#cropped-cherry {
+    margin: auto;
+    position: relative;
+    top: 40px;
+}
+
+.products-footer {
+    margin-top: 200px;
+}
+
+#content-con a {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    transition: all .4s ease; 
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: #F7931E;
+    font-weight: 800;
+}
+
+#content-con p {
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#content-con h2 {
+    font-size: 15px;
+    color:#F7931E;
+}
+
+#content-con img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#content-con {
+    height: 400px;
+}
+
+
+
+
 /* --- media queries --- */ 
 
 
@@ -961,6 +1063,65 @@ margin-top: 40px;
 }
 /* Page 2: Blog Post End */ 
 
+
+/*Page 3: Products Page Start */ 
+
+#sidebyside {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+}
+
+#product-flavours img{
+    width:60%;
+}
+
+#product-flavours {
+    flex-direction: column;
+    gap:15px;
+}
+
+#content-con {
+    position: sticky;
+    width: 700px;
+    height: 500px;
+    top: 0px;
+}
+
+#content-con img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#content-con p {
+    line-height: 34px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#content-con h2 {
+    font-size: 20px;
+    color:#F7931E;
+}
+
+#content-con a {
+    font-size: 25px;
+}
+
+#flavour-header {
+    font-size: 80px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    color: #E82147;
+}
+
+
+/*Page 3: Products Page End */ 
 
 
 /* --- desktop --- */  
