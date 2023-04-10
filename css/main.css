@@ -21,7 +21,11 @@ h2 {
 h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    font-weight:200;
+}
+
+h4 {
+    font-size: 15;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul li {
@@ -44,7 +48,8 @@ input, textarea {
 
  p {
     font-size: 15px;
-    font-family: 'Sintony', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
  }
 
 
@@ -77,6 +82,13 @@ input, textarea {
 
 .button:hover {
 	background-color: #ffffff86; 
+}
+
+.page-break {
+    width: 300px;
+    margin-top: 100px;
+    border: 1px solid #F7931E;
+    border-radius: 60px;
 }
 
 
@@ -157,10 +169,10 @@ input, textarea {
 
  #hero-con p {
     color: #E62448;
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: bold;
     font-size: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 3px;
  }
 
@@ -187,15 +199,131 @@ input, textarea {
 
 #add-to-cart {
     margin-top: 10px;
-    margin-left: 5px;
 }
 
 #add-to-cart a {
     color: #E62448;
+}
 
+/* Flavour Section */ 
+
+#flavours img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#flavours {
+    place-items: center;
+    text-align: center;
+}
+
+#flavours h4 {
+    margin-top: 20px;
+}
+
+#flavours h3 {
+    color: #F7931E;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#flavours a {
+    color: #F7931E;
+    font-weight: bold;
+    border: 1px solid #F7931E;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#flavours h3 a{
+    transition: all .6s ease;
+}
+
+#flavours h3 a:hover {
+    color: #E62448;
+    font-size: 16px;
+}
+
+#flavours p {
+    color: #E62448;
+    margin-top: 10px;
+}
+
+#cherry p {
+    font-weight: bold;
+}
+
+/* Benefits Section */ 
+
+#health-benefits {
+    place-items: center;
+    text-align: center;
+}
+
+#health-benefits h3 {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+#health-benefits img {
+    margin-top: 100px;
+}
+
+#health-benefits p {
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.benefit {
+    border: 2px solid #F25CAD;
+    margin-top: 10px;
+    width: 240px;
+    padding:15px;
 }
 
 
+/* Blog Post Section */ 
+
+
+#blog-section h4 p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+#blog-section span {
+    color:#6EBE43;
+    font-weight: bold;
+}
+
+#blog-section h2 {
+    color: #6EBE43;
+    text-align: center;
+    margin-top: 84px;
+}
+
+#blog-section h3 {
+    background-color: #e2ffd2a7;
+    color: #6EBE43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 39px;
+    width: 101px;
+    height: 31px;
+    float: left;
+}
+
+#blog-section{
+place-items: center;
+padding: 50px;
+}
+
+
+#blog-section img {
+    margin-top: 40px;
+}
 
 
 
@@ -325,15 +453,40 @@ margin-top: 40px;
 }
 
 
+/* Flavour Section */ 
 
+#flavours {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#flavours h3 {
+    font-size: 15px;
+}
+
+/* Health Benefits Section*/
+
+#health-benefits {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap:50px;
+}
+
+.benefit {
+    transition: .4s ease;
+    padding: 10px;
+}
+
+.benefit:hover {
+  border-width: 5px;
+  cursor: pointer;
+}
 
 /* --- desktop --- */  
 
 @media screen and (min-width: 1200px) {
-
-/*dynamic div*/ 
-
-
 
 
 #nav-con ul li a {
@@ -350,3 +503,4 @@ margin-top: 40px;
 }
 
 }
+
