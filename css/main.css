@@ -236,13 +236,13 @@ input, textarea {
     padding: 5px;
 }
 
-#flavours h3 a{
+#flavours h4 a{
     transition: all .6s ease;
 }
 
-#flavours h3 a:hover {
+#flavours h4 a:hover {
     color: #E62448;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #flavours p {
@@ -279,12 +279,30 @@ input, textarea {
     border: 2px solid #F25CAD;
     margin-top: 10px;
     width: 240px;
-    padding:15px;
+    padding: 20px;
 }
 
 
 /* Blog Post Section */ 
 
+#blog-section ul li a {
+    color: #F7931E;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0px;
+    margin-right: 10px;
+    float: left;
+    transition: all .4s ease;
+ }
+
+#blog-section ul li :hover {
+    color: #E62448;
+ }
+
+#blog-section h4 {
+    color: #6EBE43;
+    margin-top: 15px;
+}
 
 #blog-section h4 p {
     margin-top: 10px;
@@ -292,15 +310,21 @@ input, textarea {
     line-height: 30px;
 }
 
-#blog-section span {
+#blog-section span p{
     color:#6EBE43;
     font-weight: bold;
+    margin-top: 15px;
+}
+
+#blog-section p {
+    line-height: 25px;
 }
 
 #blog-section h2 {
     color: #6EBE43;
     text-align: center;
     margin-top: 84px;
+    margin-bottom: 25px;
 }
 
 #blog-section h3 {
@@ -312,20 +336,25 @@ input, textarea {
     border-radius: 39px;
     width: 101px;
     height: 31px;
-    float: left;
 }
 
 #blog-section{
 place-items: center;
-padding: 50px;
+padding-left: 30px;
+padding-right: 30px;
 }
 
 
 #blog-section img {
-    margin-top: 40px;
+    margin-top: 10px;
+    background-color: #F9CAFE;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-
+#blog-section p {
+    font-size: 12px;
+}
 
 /* Footer */ 
 #footer-nav #burger-con {
